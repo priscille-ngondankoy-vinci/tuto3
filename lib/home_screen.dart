@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:untitled4/my_form.dart';
 
 import 'main.dart';
 import 'my_square.dart';
@@ -24,9 +25,13 @@ class HomeScreen extends StatelessWidget {
           children: [
             MySquare(color: color),
             MySwitch(color: color, setColor: setColor),
+            MyForm(setColor)
           ],
         ),
+        
+        
       ),
+      
     );
   }
 }
